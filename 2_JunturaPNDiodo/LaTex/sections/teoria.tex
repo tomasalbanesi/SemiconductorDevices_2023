@@ -1,0 +1,28 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+	
+	\subsection{Determinacion de capacidad de juntura}
+	
+	Si se aplica una tension $V$ a una juntura y se provoca una variacion $dV$, las cargas almacenadas en la zona de transicion de la juntura varian en $dQ$.	
+	Esto implica un efecto capactivo del diodo.
+	
+	Se define como la capacidad de transicion, o de carga espacial, o simplemente de juntura a la capacidad que presenta la juntura en esas condiciones y se lo simboliza con $C_j$.
+	
+	Su definicion es la siguiente:
+	
+	\begin{equation}
+		C_j = \frac{dQ}{d(\psi_0 - V)} = - \frac{dQ}{dV}
+	\end{equation}
+	
+	Puedo multiplicar y dividir por un diferencial de longitud:
+	
+	\begin{equation}
+		C_j = - \frac{dQ}{dV} = - \frac{dQ}{dl} \cdot \frac{dl}{dV}
+	\end{equation}
+	
+	Como ya se tiene la expresion de la longitud de la juntura $l$ se la puede derivar respecto de la tension, y se obtiene la siguiente ecuacion:
+	
+	\begin{equation}
+		\frac{dl}{dV} = -\frac{1}{2} \cdot \left[ \frac{2 \cdot \epsilon}{q_e} \right]  
+	\end{equation}

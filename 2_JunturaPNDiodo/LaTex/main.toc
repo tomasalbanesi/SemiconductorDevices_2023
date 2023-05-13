@@ -1,0 +1,17 @@
+\contentsline {section}{\numberline {1}Teoría}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Determinacion de capacidad de juntura}{3}{}%
+\contentsline {section}{\numberline {2}Resumen de fórmulas}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Potencial de contacto $\psi _0$}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Ancho de juntura $l$}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Ancho de juntura Zona P $l_p$ y Zona N $l_n$}{4}{}%
+\contentsline {subsection}{\numberline {2.4}Campo electrico maximo $E_0$}{4}{}%
+\contentsline {subsection}{\numberline {2.5}Capacidad de juntura $C_j$}{4}{}%
+\contentsline {subsection}{\numberline {2.6}Corriente de diodo $I$}{5}{}%
+\contentsline {subsection}{\numberline {2.7}Resistencia estatica $R_E$}{5}{}%
+\contentsline {subsection}{\numberline {2.8}Resistencia dinamica $r_d$}{5}{}%
+\contentsline {subsection}{\numberline {2.9}Rendimiento de emision $\gamma $}{5}{}%
+\contentsline {subsection}{\numberline {2.10}Corriente de saturacion inversa $I_s$}{6}{}%
+\contentsline {section}{\numberline {3}Ejercicios}{7}{}%
+\contentsline {subsection}{\numberline {3.1}Ejercicio 2.1}{7}{}%
+\contentsline {paragraph}{a)}{7}{}%
+\contentsline {paragraph}{b)}{7}{}%

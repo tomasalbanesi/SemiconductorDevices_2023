@@ -1,0 +1,131 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+	
+	\subsection{Potencial de contacto $\psi_0$}
+	
+	En una juntura PN el potencial de contacto viene dado por la siguiente ecuación:
+	
+	\begin{equation}
+		\psi_0 = \frac{k \cdot T}{q_e} \cdot ln \left( \frac{N_A \cdot N_D}{n_i^2(T)}\right) 
+	\end{equation}
+	
+	\subsection{Ancho de juntura $l$}
+	
+	En una juntura PN el ancho de la juntura se determina con la siguiente ecuacion:
+	
+	\begin{equation}
+		l = \sqrt{\frac{2 \cdot \epsilon_r \cdot \epsilon_0}{q_e} \cdot \left( \psi_0 - V_D\right) \cdot \left( \frac{N_A + N_D}{N_A \cdot N_D} \right)  }
+	\end{equation}
+	
+	\subsection{Ancho de juntura Zona P $l_p$ y Zona N $l_n$}
+	
+	En una juntura PN el ancho de la juntura de la zona N se determina con la siguiente ecuacion:
+	
+	\begin{equation}
+		l_n = l \cdot \frac{N_A}{N_A + N_D}
+	\end{equation}
+	
+	Para determinar el ancho de la otra zona:
+	
+	\begin{equation}
+		l_p = l - l_n
+	\end{equation}
+	
+	\subsection{Campo electrico maximo $E_0$}
+	
+	En una juntura PN el campo electrico se determina con la siguiente ecuacion:
+	
+	\begin{equation}
+		E_0 = E_{max} = - 2 \cdot \frac{\psi_0 - V_D}{l}
+	\end{equation}
+	
+	\subsection{Capacidad de juntura $C_j$}
+	
+	En una juntura PN la capacidad de juntura se determina con la siguiente ecuacion:
+	
+	\begin{equation}
+		C_j = \frac{\epsilon_r \cdot \epsilon_0 \cdot A}{l}
+	\end{equation}
+	
+	Y la capacidad de juntura por unidad de area, o capacidad de juntura especifica se determina de la siguiente forma:
+	
+	\begin{equation}
+		\frac{C_j}{A} = C^{'}_j = \frac{\epsilon_r \cdot \epsilon_0}{l}
+	\end{equation}
+	
+	\subsection{Corriente de diodo $I$}
+	
+	La corriente del diodo esta determinada por la siguiente ecuacion:
+	
+	\Large
+	\begin{equation}
+		I = I_s \cdot \left( e^{\frac{q \cdot V}{k \cdot T}} - 1\right) 
+	\end{equation}
+	
+	\normalsize
+	Si se define $V_T = \frac{k \cdot T}{q}$:
+	
+	\Large
+	\begin{equation}
+		I = I_s \cdot \left( e^{\frac{V}{V_T}} - 1\right) 
+	\end{equation}
+	
+	\normalsize
+	\subsection{Resistencia estatica $R_E$}
+	
+	La resistencia estatica del diodo esta determinada por la siguiente ecuacion:
+	
+	\begin{equation}
+		R_E = \frac{V_{D_Q}}{I_{D_Q}} 
+	\end{equation}
+	
+	\normalsize
+	\subsection{Resistencia dinamica $r_d$}
+	
+	La resistencia dinamica del diodo esta determinada por la siguiente ecuacion:
+	
+	\Large
+	\begin{equation}
+		r_d = \frac{V_T}{I_{D_Q}} = \frac{V_T}{I_s \cdot e^{\frac{V}{V_T}}} 
+	\end{equation}
+	
+	\normalsize
+	\subsection{Rendimiento de emision $\gamma$}
+	
+	El rendimiento de emision esta determinado por la siguiente ecuacion:
+	
+	\begin{equation}
+		\gamma_p = \frac{J_p(0)}{J_p(0) + J_n(0)} 
+	\end{equation}
+	
+	\begin{equation}
+		\gamma_n = \frac{J_n(0)}{J_p(0) + J_n(0)} 
+	\end{equation}
+	
+	\begin{equation}
+		\gamma_n = 1 - \gamma_p
+	\end{equation}
+
+	Recordando que:
+	
+	\begin{equation}
+		J_p(0) = \frac{q \cdot D_p}{L_p} \cdot p_{n_o} \cdot \left( e^\frac{V}{V_T} - 1\right) = \frac{q \cdot D_p}{L_p} \cdot \frac{n_i^2}{N_D} \cdot \left( e^\frac{V}{V_T} - 1\right)
+	\end{equation}
+	
+	\begin{equation}
+		J_n(0) = \frac{q \cdot D_n}{L_n} \cdot n_{p_o} \cdot \left( e^{\frac{V}{V_T}} -1 \right) = \frac{q \cdot D_n}{L_n} \cdot \frac{n_i^2}{N_A} \cdot \left( e^\frac{V}{V_T} - 1\right)
+	\end{equation}
+	
+	\normalsize
+	\subsection{Corriente de saturacion inversa $I_s$}
+	
+	La corriente de saturacion inversa esta determinada por la siguiente ecuacion:
+	
+	\begin{equation}
+		I_s = q \cdot A \cdot \left( \frac{D_p \cdot p_{n_0}}{L_p} + \frac{D_n \cdot n_{p_0}}{L_n}\right) 
+	\end{equation}
+	
+	
+	
+\end{document}
