@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.13)  13 MAY 2023 20:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.5.14)  14 MAY 2023 15:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,9 +6,9 @@ entering extended mode
 (main.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-05-11>
-(C:\Users\tomas\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+(C:\Program Files\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
-(C:\Users\tomas\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+(C:\Program Files\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -23,39 +23,37 @@ File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
-(C:\Users\tomas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\tomas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(C:\Users\tomas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\tomas\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Users\tomas\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:\Users\tomas\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
 )
-(C:\Users\tomas\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\subfiles.sty
+(C:\Program Files\MiKTeX\tex/latex/subfiles\subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
 
-(C:\Users\tomas\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
+(C:\Program Files\MiKTeX\tex/latex/import\import.sty
 Package: import 2020/04/01  v 6.2
 ))
-(C:\Users\tomas\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count193
 \l__pdf_internal_box=\box51
@@ -77,8 +75,7 @@ LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 
-(C:\Users\tomas\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count194
 \scratchdimen=\dimen143
@@ -91,15 +88,12 @@ ii
 \MPnumerator=\count198
 \makeMPintoPDFobject=\count199
 \everyMPtoPDFconversion=\toks18
-)
-(C:\Users\tomas\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\tomas\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
+(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )) (caratula.tex
 <utn-logo.jpg, id=1, 476.78125pt x 171.64125pt>
@@ -154,7 +148,7 @@ LaTeX Font Warning: Size substitutions with differences
  ) 
 Here is how much of TeX's memory you used:
  1493 strings out of 476361
- 27369 string characters out of 5788046
+ 26610 string characters out of 5797861
  1860993 words of memory out of 5000000
  21906 multiletter control sequences out of 15000+600000
  519181 words of font info for 54 fonts, out of 8000000 for 9000
@@ -163,27 +157,22 @@ Here is how much of TeX's memory you used:
  <C:\Users\tomas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1440.pk> <C:\Users\tomas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1000.pk> <C:\Users\tomas\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\tcbx1728.pk><C:/Users/tomas/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmbx10.pfb><C:/Users/tomas/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/tomas/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/tomas/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/tomas/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/toma
-s/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Us
-ers/tomas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pf
-b><C:/Users/tomas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
-cmmi8.pfb><C:/Users/tomas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmr10.pfb><C:/Users/tomas/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb><C:/Users/tomas/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmr5.pfb><C:/Users/tomas/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/tomas/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/tomas/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/tomas/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/tomas
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Use
-rs/tomas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pf
-b>
-Output written on main.pdf (7 pages, 243415 bytes).
+/dpi600\tcbx1728.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/
+Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program File
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program F
+iles/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Fi
+les/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (7 pages, 243251 bytes).
 PDF statistics:
  127 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
